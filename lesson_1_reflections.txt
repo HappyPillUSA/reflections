@@ -1,3 +1,31 @@
+* Understand the concept of version control.
+
+Version control systems keep track of every change to a file over time so early versions can be restored and are used by software teams for source code.It is essencial for contributions between developers.
+
+* Understand the difference between git software and GitHub the website.
+
+Git is a revision control system, a tool to manage your source code history. GitHub is a hosting service for Git repositories. So they are not the same thing: Git is the tool, GitHub is the service for projects that use Git
+
+* Understand terminology: branch, fork, merge, pull, push, remote
+
+Branch -The first new branch you create will be based on the default branch, which is usually master. If you have more than one branch, you will be given a choice to base the new branch on the currently checked out branch or the default branch.
+
+A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
+
+Merging is Git's way of putting a forked history back together again. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
+
+Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub.
+
+Push - pushing sends the recent commit history from your local repository up to GitHub.
+
+A remote in Git is a common repository that all team members use to exchange their changes. In most cases, such a remote repository is stored on a code hosting service like GitHub 
+
+
+* Make your first pull request to a git repository on GitHub.
+
+
+
+
 Viewing a diff between two files helps indentifying areas where a new bug may
 have been introduced. So check those locations first when things are "suddenly"
 broken.
