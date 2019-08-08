@@ -1,3 +1,32 @@
+* Basic Terminal Navigation for Mac user.
+
+
+The Terminal is much like the finder, but less pretty. There are just a few basic commands needed to navigate around in Terminal. Using Terminal, we often refer to folders as directories.
+
+
+* Most important comands to navigate.
+
+Open up terminal, cmd + space "terminal".
+
+pwd Figure out which directory you are currently in by "Printing the Working Directory".
+
+ls List the directories and files inside the current directory.
+
+ls -a include hidden files in the list of directories and files. This is helpful when trying to find hidden files like .git or .gitignore
+
+cd [folder] Go into the folder. e.g. cd Desktop/Developer
+
+cd This by itself will navigate all the way out to your Home Directory
+
+cd .. Back out to the parent directory of the current directory.
+
+open [file] Same as "double-clicking" a file or folder in finder.
+
+open . Opens the current folder or file in finder or it's default application.
+
+clear When you need a fresh Terminal window
+
+
 * Understand the concept of version control.
 
 Version control systems keep track of every change to a file over time so early versions can be restored and are used by software teams for source code.It is essencial for contributions between developers.
